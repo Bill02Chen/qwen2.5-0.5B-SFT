@@ -28,7 +28,7 @@ The evaluation scores for the 8 evaluation sets using the base model and the SFT
 |arc-easy| acc| 0.4937±0.0103| 0.5758±0.0101|
 |  |acc-norm| 0.4541±0.0102 |0.4697±0.0102|
 |arc-challenge |acc| 0.2918±0.0133| 0.3123±0.0135|
-|  |acc-norm |0.3336±0.0138\ 0.3439±0.0139|
+|  |acc-norm |0.3336±0.0138 | 0.3439±0.0139|
 |hellaswag| acc| 0.3838±0.0049| 0.3855±0.0049|
 |  | acc-norm| 0.4949±0.0050| 0.4814±0.0050|
 |winogrande| acc| 0.5517±0.014 |0.5612±0.0139|

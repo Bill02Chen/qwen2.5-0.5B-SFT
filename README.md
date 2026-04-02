@@ -22,20 +22,20 @@ The base model is Qwen2.5-0.5B, the finetuning method is full finetuning. The ke
 The evaluation used MMLU (5-shot), ARC Easy (0-shot), ARC Challenge (25-shot),HellaSwag (10-shot), WinoGrande (5-shot), TruthfulQA (0-shot), PIQA (0-shot), and BoolQ (0-shot).
 The evaluation scores for the 8 evaluation sets using the base model and the SFTmodel are shown in the following table.
 
-|:-------:|:-------:|:-------:|:-------:|
-|  |Metric |Base model |SFT model|
-|mmlu | acc | 0.2528±0.0037| 0.4002±0.0041|
-|arc-easy| acc| 0.4937±0.0103| 0.5758±0.0101|
-|  |acc-norm| 0.4541±0.0102 |0.4697±0.0102|
-|arc-challenge |acc| 0.2918±0.0133| 0.3123±0.0135|
-|  |acc-norm |0.3336±0.0138 | 0.3439±0.0139|
-|hellaswag| acc| 0.3838±0.0049| 0.3855±0.0049|
-|  | acc-norm| 0.4949±0.0050| 0.4814±0.0050|
-|winogrande| acc| 0.5517±0.014 |0.5612±0.0139|
-|truthfulqa-mc2|acc| 0.4262±0.0147| 0.4309±0.0153|
-| piqa |acc |0.6893±0.0108| 0.6823±0.0109|
-|  |acc-norm |0.6872±0.0108 |0.6774±0.0109|
-|boolq |acc| 0.6321±0.0084 |0.7177±0.0079|
+| Dataset           | Metric    | Base model           | SFT model            |
+|:------------------|:----------|---------------------:|---------------------:|
+| mmlu              | acc       | 0.2528 ± 0.0037      | 0.4002 ± 0.0041      |
+| arc-easy          | acc       | 0.4937 ± 0.0103      | 0.5758 ± 0.0101      |
+|                   | acc-norm  | 0.4541 ± 0.0102      | 0.4697 ± 0.0102      |
+| arc-challenge     | acc       | 0.2918 ± 0.0133      | 0.3123 ± 0.0135      |
+|                   | acc-norm  | 0.3336 ± 0.0138      | 0.3439 ± 0.0139      |
+| hellaswag         | acc       | 0.3838 ± 0.0049      | 0.3855 ± 0.0049      |
+|                   | acc-norm  | 0.4949 ± 0.0050      | 0.4814 ± 0.0050      |
+| winogrande        | acc       | 0.5517 ± 0.0140      | 0.5612 ± 0.0139      |
+| truthfulqa-mc2    | acc       | 0.4262 ± 0.0147      | 0.4309 ± 0.0153      |
+| piqa              | acc       | 0.6893 ± 0.0108      | 0.6823 ± 0.0109      |
+|                   | acc-norm  | 0.6872 ± 0.0108      | 0.6774 ± 0.0109      |
+| boolq             | acc       | 0.6321 ± 0.0084      | 0.7177 ± 0.0079      |
 
 The table shows that after fine tuning, the accuracy scores in most evaluation sets areimproved. Particularly for MMLU and BoolQ evaluation sets, the accuracy scoresimprove significantly. The scores increase by about 58.3% and 13% respectively forthe MMLU and the BoolQ evaluation sets.
 
